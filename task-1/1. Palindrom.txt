@@ -1,0 +1,12 @@
+1.Mulai
+2.Buat array kosong
+3.Input Text
+4.Inisaisikan jumlah Text dengan X
+5.Lakukan perulangan jika X lebih besar dari 0 maka ..jika tidak ke line 7
+6.Push Text dengan index X ke Array kosong
+7.X dikurang 1
+8.Array yang sudah diisi konversi ke string
+9.Jika Array dan Text memiliki kesama.
+10.Jika Iya, Print True
+11.Jika Tidak.Print False
+12.Selesai

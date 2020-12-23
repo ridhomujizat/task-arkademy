@@ -1,0 +1,10 @@
+1.Mulai
+2.Buat array kosong
+3.Input Text
+4.Text konversi ke array dengan split spasi
+5.Inisaisikan jumlah arrayText dengan X
+6.Lakukan perulangan jika X lebih besar dari 0 maka ..jika tidak ke line 9
+7.Push arrayText dengan index X ke Array kosong
+8.X dikurang 1
+9.Array yang sudah diisi konversi ke string dengan join spasi
+10.selesai
