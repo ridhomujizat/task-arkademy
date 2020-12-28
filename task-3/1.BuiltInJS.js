@@ -20,7 +20,7 @@ const map = dataArray.map((item) => item * 5);
  * untuk menjalani fungsi sesuai banyak jumlah data
  */
 dataArray.forEach((item) => {
-  //   console.log(`number ${item}`);
+  // console.log(`number ${item}`);
 });
 
 /**
@@ -74,4 +74,4 @@ const join = dataArray.join(" + ");
  */
 const kata = "berani mencoba hal baru";
 const splice = kata.split(" ");
-// console.log(splice);
+console.log(splice);

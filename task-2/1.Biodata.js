@@ -19,3 +19,5 @@ const biodata = {
   ],
   interestinCoding: true,
 };
+
+console.log(biodata);
