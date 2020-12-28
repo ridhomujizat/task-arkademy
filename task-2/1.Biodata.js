@@ -4,12 +4,12 @@ const biodata = {
   hobbies: ["Sport", "Play game"],
   isMerried: false,
   schoolList: [
-    { name: "SMK Telkom Jakarta", yearIn: 2013, yearOut: 2016, major: "SMK" },
+    { name: "SMK Telkom Jakarta", yearIn: 2013, yearOut: 2016, major: "TKJ" },
     {
       name: "Universitas Singaperbangsa Karawang",
       yearIn: 2016,
       yearOut: 2018,
-      major: "S!",
+      major: "Teknik Informatika",
     },
   ],
   skills: [

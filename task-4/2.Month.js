@@ -23,11 +23,11 @@ const getmonth = (callback) => {
   }, 1000);
 };
 
-getmonth(function (test, data) {
-  if (test == null) {
+getmonth(function (error, data) {
+  if (error == null) {
     let newMonth = data.map((item) => item);
     console.log(newMonth);
   } else {
-    console.log(test);
+    console.log(error);
   }
 });
