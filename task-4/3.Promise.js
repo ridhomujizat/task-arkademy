@@ -16,7 +16,7 @@ const cekFilm = (film) => {
       } else {
         reject(new Error("Tidak ada gilm"));
       }
-    }, 500);
+    }, 1000);
   });
 };
 

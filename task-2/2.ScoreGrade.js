@@ -24,4 +24,6 @@ if (mtk && bahasaIndonesia && bahasaInggris && ipa) {
   } else {
     console.log("Cek kembali nilai yang diinput");
   }
+} else {
+  console.log("data tidak boleh kosong");
 }

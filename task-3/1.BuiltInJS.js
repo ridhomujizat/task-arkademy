@@ -42,7 +42,7 @@ dataArray.pop();
  * menambahkan nilai pada index ke-0 sehingga elemen-elemen sebelumnya bergeser
  */
 dataArray.unshift(-1, 0);
-console.log(dataArray);
+// console.log(dataArray);
 
 /**
  * 7. Built in slice()
@@ -56,8 +56,8 @@ const slice = dataArray.slice(0, 3);
  * bisa digunakan untuk menreplace data, menambahkan atau menghapus  pada bagian tertentu
  * splice([nilaiawal], [nilai yang dihapus], [nilai akhir], )
  */
-dataArray.splice(3, 0, "data baru", "coba");
-// console.log(dataArray);
+dataArray.splice(3, 2, "data baru", "coba");
+console.log(dataArray);
 dataArray.splice(0, 2);
 // console.log(dataArray);
 
