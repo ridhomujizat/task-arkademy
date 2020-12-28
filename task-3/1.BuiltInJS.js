@@ -57,7 +57,7 @@ const slice = dataArray.slice(0, 3);
  * splice([nilaiawal], [nilai yang dihapus], [nilai akhir], )
  */
 dataArray.splice(3, 2, "data baru", "coba");
-console.log(dataArray);
+// console.log(dataArray);
 dataArray.splice(0, 2);
 // console.log(dataArray);
 

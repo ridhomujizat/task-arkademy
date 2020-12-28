@@ -23,10 +23,10 @@ function SearchName(search, amount, callback) {
 
 function ShowName(search, amount) {
   let result = name
-    .filter((item) => -1 != item.toLowerCase().indexOf(search))
+    .filter((item) => -1 != item.toLowerCase().indexOf(search.toLowerCase()))
     .slice(0, amount);
 
   console.log(result);
 }
 
-SearchName("a", 10, ShowName);
+SearchName("An", 3, ShowName);
